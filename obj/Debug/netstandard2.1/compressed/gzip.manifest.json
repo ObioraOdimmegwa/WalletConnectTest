@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\2BSfQ4y8wxIcDFkF5EtqA4p8APQytJORd-P8S6EgdSY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\JBWfZTZZuQGLy5jsnOjPjeVLbjB7Trjp05yW1ZqzdnA=.hash",
       "Source": "C:\\Users\\Expl0it90\\Desktop\\walletConnect\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\walletConnect.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/walletConnect.dll.gz"
     },
@@ -436,7 +436,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Threading.Channels.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\akmgTYyeFyvKSJRYSLYmUGjnqvJZuSH4UPRjucb3TzM=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\n34tEwm5KTgrP9O2Tqx1W_f43JqwWECRkqEdRBjo_iQ=.hash",
       "Source": "C:\\Users\\Expl0it90\\Desktop\\walletConnect\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\walletConnect.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/walletConnect.pdb.gz"
     },
@@ -466,7 +466,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6Jka64EJ0WM32vIDVzjsL5xxFF50qPr79CFgeHQyE2I=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\dVJJlhfMNgX72Dh_X-9bMlGzgQAsdu6K_HKfOx1ohyY=.hash",
       "Source": "C:\\Users\\Expl0it90\\Desktop\\walletConnect\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }

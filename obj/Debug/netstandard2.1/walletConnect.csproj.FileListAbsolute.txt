@@ -564,6 +564,6 @@ C:\Users\Expl0it90\Desktop\walletConnect\obj\Debug\netstandard2.1\walletConnect.
 C:\Users\Expl0it90\Desktop\walletConnect\obj\Debug\netstandard2.1\walletConnect.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Expl0it90\Desktop\walletConnect\obj\Debug\netstandard2.1\walletConnect.RazorComponent.output.cache
 C:\Users\Expl0it90\Desktop\walletConnect\obj\Debug\netstandard2.1\scopedcss\bundle\walletConnect.styles.css
-C:\Users\Expl0it90\Desktop\walletConnect\obj\Debug\netstandard2.1\integrity\2BSfQ4y8wxIcDFkF5EtqA4p8APQytJORd-P8S6EgdSY=.hash
-C:\Users\Expl0it90\Desktop\walletConnect\obj\Debug\netstandard2.1\integrity\akmgTYyeFyvKSJRYSLYmUGjnqvJZuSH4UPRjucb3TzM=.hash
-C:\Users\Expl0it90\Desktop\walletConnect\obj\Debug\netstandard2.1\integrity\6Jka64EJ0WM32vIDVzjsL5xxFF50qPr79CFgeHQyE2I=.hash
+C:\Users\Expl0it90\Desktop\walletConnect\obj\Debug\netstandard2.1\integrity\JBWfZTZZuQGLy5jsnOjPjeVLbjB7Trjp05yW1ZqzdnA=.hash
+C:\Users\Expl0it90\Desktop\walletConnect\obj\Debug\netstandard2.1\integrity\n34tEwm5KTgrP9O2Tqx1W_f43JqwWECRkqEdRBjo_iQ=.hash
+C:\Users\Expl0it90\Desktop\walletConnect\obj\Debug\netstandard2.1\integrity\dVJJlhfMNgX72Dh_X-9bMlGzgQAsdu6K_HKfOx1ohyY=.hash
