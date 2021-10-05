@@ -1,0 +1,34 @@
+using System.Threading.Tasks;
+using WalletConnectSharp.Core;
+using WalletConnectSharp.Core.Models;
+
+namespace walletConnect
+{
+    public class WalletConnectService
+    {
+        public readonly WalletConnect wc;
+        private const string img = "data:image/jpeg;base64,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";
+
+        public WalletConnectService()
+        {
+            var metaData = new ClientMeta
+            {
+                Description = "This is a test of the Nethereum.WalletConnect feature",
+                Icons = new[] { "https://app.warriders.com/favicon.ico" },
+                Name = "WalletConnect Test",
+                URL = "https://app.warriders.com"
+            };
+            wc = new WalletConnect(clientMeta:metaData,bridgeUrl: "https://g.bridge.walletconnect.org");
+        }
+
+        public Task Connect()
+        {
+            return wc.Connect();
+        }
+
+        public Task Disconnect()
+        {
+            return wc.Disconnect();
+        }
+    }
+}

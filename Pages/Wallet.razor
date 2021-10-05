@@ -1,0 +1,61 @@
+@page "/wallet"
+@page "/"
+
+@inherits WalletComponent
+
+<link rel="stylesheet" href="/css/styles.css" />
+<link rel="stylesheet" href="/css/vendor.css" />
+
+<div class="d-table w-100 h-100 pt-5">
+    <div class="d-table-cell align-middle">
+        <div class="card">
+            <div class="card__topbar">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="card__logo">
+                        <span style="font-size: 1.05rem; font-weight:bold;">Wallet Connect Test</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card__body">
+                <div class="card__branding text-center">
+                    <img src="/images/connect.png" alt="connect" title="Logo"
+                        style="width: 150px; max-height: 150px !important; height:150px;" />
+                </div>
+                <div class="form-group text-center">
+                    <p style="color: gray;font-size: 1.1rem;font-weight:600;">@instructions</p>
+                </div>
+                <div class="form-group">
+                    <div style="width: 100%;height: 20rem;border-radius: 10px;outline: 2px solid #30D5DB;">
+                        <img src="@qrCodeImage" class="background-image">
+                    </div>
+                </div>
+                <div class="form-group text-center pt-2">
+                    @if (!awaitingConnection)
+                    {
+                        <button @onclick="ConnectAsync" class="btn btn-success" style="padding: 1rem; width: 50%;">
+                            Connect
+                        </button>
+                    }
+                    @if (awaitingConnection)
+                    {
+                        <button @onclick="DisconnectAsync" class="btn btn-danger" style="padding: 1rem; width: 50%;">
+                            Disconnect
+                        </button>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .background-image {
+        background-color: #ffffff;
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+</style>
