@@ -13,10 +13,10 @@ namespace walletConnect
         {
             var metaData = new ClientMeta
             {
-                Description = "This is a test of the Nethereum.WalletConnect feature",
-                Icons = new[] { "https://app.warriders.com/favicon.ico" },
+                Description = "This is a test of the wallet connect feature",
+                Icons = new[] { "https://wctest.azurewebsites.net/images/connect.png" },
                 Name = "WalletConnect Test",
-                URL = "https://app.warriders.com"
+                URL = "https://wctest.azurewebsites.net"
             };
             wc = new WalletConnect(clientMeta:metaData,bridgeUrl: "https://g.bridge.walletconnect.org");
         }
