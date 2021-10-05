@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "walletConnect.dll": "sha256-IIqcrEpPJ9Z3xgqYt+kLjkur7CoMi0OoMB45PXED+VM=",
+      "walletConnect.dll": "sha256-2BSfQ4y8wxIcDFkF5EtqA4p8APQytJORd\/P8S6EgdSY=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-Bs1Wrmh4ex9dTEIT0yCRF52N\/wOmsBDt457BHr0\/ssM=",
       "netstandard.dll": "sha256-\/zcPVM75OAY+joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=",
       "System.Xml.Linq.dll": "sha256-IPbQMdJxZXdk8HTlaPyXdQ6Zb82iZLphnM74yO4EURQ=",
@@ -95,7 +95,7 @@
       "System.Threading.Channels.dll": "sha256-QkMdUp2MgLDgAoXyZq8X7Tr2Y0t9pnsF9I2yXyMmKYk="
     },
     "pdb": {
-      "walletConnect.pdb": "sha256-F9PTjSJNBkO4AHWx3VtpHGZJbOV+kYwdLXHCxiugvyo=",
+      "walletConnect.pdb": "sha256-akmgTYyeFyvKSJRYSLYmUGjnqvJZuSH4UPRjucb3TzM=",
       "Common.Logging.Core.pdb": "sha256-jTB+G1PFQoRZTKGiGYCd7cGCNQ74uk6t6XKjOxwcLAk="
     },
     "runtime": {
